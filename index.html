@@ -4,7 +4,7 @@
 <head>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;600&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,15 +13,18 @@
 
     <div class="container">
 
-        <img src="images/logo.svg" alt="green clipboard logo">
+        <img src="images/logo.svg" class="green-logo-1" alt="green clipboard logo">
+
 
         <div class="history">
             <h1>A history of everything you copy</h1>
             <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
 
-            <button>Download for iOS</button>
+            <div class="button-row">
+                <button class="i0S">Download for iOS</button>
 
-            <button>Download for Mac</button>
+                <button class="mac">Download for Mac</button>
+            </div>
         </div>
 
         <div class="keep-track">
@@ -29,20 +32,22 @@
             <h1>Keep track of your snippets</h1>
             <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
 
-            <img src="images/image-computer.png" alt="desktop computer">
+            <img src="images/image-computer.png" class="computer" alt="desktop computer">
 
-            <h2> Quick Search</h2>
+            <h2>Quick Search</h2>
             <p>Easily search your snippets by content, category, web address, application, and more.</p>
             <h2>iCloud Sync</h2>
             <p>Instantly saves and syncs snippets across all your devices.</p>
-            <h2> Complete History</h2>
+            <h2>Complete History</h2>
             <p>Retrieve any snippets from the first moment you started using the app.</p>
         </div>
 
         <div class="access">
             <h1>Access Clipboard anywhere</h1>
             <p> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-            <img src="images/image-devices.png" alt="computer and phone">
+
+            <img src="images/image-devices.png" class="computer" alt="computer and phone">
+
         </div>
 
         <div class="supercharge">
@@ -71,24 +76,35 @@
             <h1>Clipboard for iOS and Mac OS</h1>
             <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
 
-            <button>Download for iOS</button>
+            <div class="button-row">
+                <button class="i0S">Download for iOS</button>
 
-            <button>Download for Mac</button>
+                <button class="mac">Download for Mac</button>
+            </div>
         </div>
     </div>
     <footer>
-        <img src="images/logo.svg" alt="green clipboard logo"> FAQs Contact Us Privacy Policy Press Kit Install Guide
+        <img src="images/logo.svg" class="green-logo-2" alt="green clipboard logo">
 
-        <img src="images/icon-facebook.svg" alt="facebook logo">
-        <img src="images/icon-twitter.svg" alt="twitter logo">
-        <img src="images/icon-instagram.svg" alt="instagram logo">
+        <p>FAQs</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Press Kit</p>
+        <p>Install Guide</p>
+        <div class="social-icons">
+            <img src="images/icon-facebook.svg" alt="facebook logo">
+            <img src="images/icon-twitter.svg" alt="twitter logo">
+            <img src="images/icon-instagram.svg" alt="instagram logo">
+        </div>
+
+        <nav>
+            <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br> Coded by <a href="#">Katie Stewart</a>.
+            </p>
+        </nav>
     </footer>
 
-    <nav>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
-        </p>
-    </nav>
+
 </body>
 
 </html>
