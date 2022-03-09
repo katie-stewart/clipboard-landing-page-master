@@ -138,7 +138,7 @@ footer p {
     filter: #46a994;
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .history p {
         max-width: 700px;
         margin-right: 350px;
@@ -257,7 +257,7 @@ footer p {
     }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     body {
         background-image: url(images/bg-header-mobile.png);
         background-repeat: no-repeat;
